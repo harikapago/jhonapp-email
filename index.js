@@ -10,8 +10,8 @@ app.use(cors());
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: 'harika.krishna99@gmail.com',
-    pass: 'bmkkbdjbtdmlhsue',
+    user: 'yadlajaswanth123@gmail.com',
+    pass: 'fvjiokrhymfulwmp',
   },
 });
 
@@ -21,9 +21,9 @@ app.post('/send-email', (req, res) => {
 
   // Email content
   const mailOptions = {
-    from: 'harika.krishna99@gmail.com',
-    to: 'harika.krishna99@gmail.com', // Replace with your recipient's email address
-    subject: 'New Contact Form Submission',
+    from: 'yadlajaswanth123@gmail.com',
+    to: 'multitechelectronicsrjy@gmail.com', // Replace with your recipient's email address
+    subject: 'Multitech-Electronics- Enquiry',
     html: `
       <p>Name: ${name}</p>
       <p>Phone: ${phone}</p>
